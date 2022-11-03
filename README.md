@@ -6,7 +6,6 @@
 * Compared Recall Score to evaluate baseline and reduced dimension model 
 * Optimized KNN, Decision Tree, and Random Forest Regressors using GridsearchCV to reach the best model. 
 
- 
 
 ## Code and Resources Used 
 **Python Version:** 3.9.12 
@@ -41,22 +40,9 @@ Variables of the dataset are:
 
 ## Data Cleaning
 I needed to clean it up so that it was usable for our model. I made the following changes and created the following variables:
-
-*	Parsed numeric data out of salary 
-*	Made columns for employer provided salary and hourly wages 
-*	Removed rows without salary 
-*	Parsed rating out of company text 
-*	Made a new column for company state 
-*	Added a column for if the job was at the company’s headquarters 
-*	Transformed founded date into age of company 
-*	Made columns for if different skills were listed in the job description:
-    * Python  
-    * R  
-    * Excel  
-    * AWS  
-    * Spark 
-*	Column for simplified job title and Seniority 
-*	Column for description length 
+ 
+*Performance in online would contain Very Bad to Very Good and Level of satisfaction in Online Education would contain Average, Bad and Good description. Changed the value of Very Bad to 0, Average to 1 and Very Good to 2 and converted Gender value to Binary values. Same steps were used to change categorical values to Nominal.
+*	Removed Outliers from the data
 
 ## EDA
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables. 
