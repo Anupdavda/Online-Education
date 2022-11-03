@@ -56,7 +56,7 @@ I looked at the distributions of the data and the value counts for the various c
 
 First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.   
 
-I tried three different models and evaluated them using Mean Absolute Error. I chose MAE because it is relatively easy to interpret and outliers aren’t particularly bad in for this type of model.   
+I tried four different models and evaluated them using Root Mean Squared Error. I chose RMSE because makes predictions that are closest to the actual values from the dataset.
 
 I tried three different models:
 *	**Logistic Regression**
@@ -65,7 +65,7 @@ I tried three different models:
 *	**SVM** 
 
 ## Model performance
-The Random Forest model far outperformed the other approaches on the test and validation sets. 
+The Random Forest model far outperformed the other approaches on the test and train sets. 
 *	**Random Forest** : RSME = 0.465
 *	**Linear Regression**: RSME = 0.454
 *	**k-NN**: RSME = 0.572
