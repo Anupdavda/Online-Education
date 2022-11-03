@@ -66,10 +66,10 @@ I tried three different models:
 
 ## Model performance
 The Random Forest model far outperformed the other approaches on the test and validation sets. 
-*	**Random Forest** : RSME = 0.465
-*	**Linear Regression**: RSME = 0.454
-*	***k-NN**: RSME = 0.572
-*	***SVM**: RSME = 0.508
+*	*Random Forest** : RSME = 0.465
+*	*Linear Regression**: RSME = 0.454
+*	**k-NN**: RSME = 0.572
+*	**SVM**: RSME = 0.508
 
 
 
