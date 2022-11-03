@@ -4,7 +4,7 @@
 * Engineered features to convert Categorical values to Numerical Values.
 * Performed  Principal Component Analysis (PCA) to reduce the dimensionality of the features.
 * Compared Recall Score to evaluate baseline and reduced dimension model 
-* Optimized KNN, Decision Tree, and Random Forest Regressors using GridsearchCV to reach the best model. 
+* Optimized KNN, Logistic Regression, SVM, and Random Forest Regressors using GridsearchCV to reach the best model. 
 
 
 ## Code and Resources Used 
@@ -59,17 +59,17 @@ First, I transformed the categorical variables into dummy variables. I also spli
 I tried three different models and evaluated them using Mean Absolute Error. I chose MAE because it is relatively easy to interpret and outliers aren’t particularly bad in for this type of model.   
 
 I tried three different models:
-*	**Multiple Linear Regression** – Baseline for the model
-*	**Lasso Regression** – Because of the sparse data from the many categorical variables, I thought a normalized regression like lasso would be effective.
-*	**Random Forest** – Again, with the sparsity associated with the data, I thought that this would be a good fit. 
+*	**Logistic Regression**
+*	**k-NN** 
+*	**Random Forest** 
+*	**SVM** 
 
 ## Model performance
 The Random Forest model far outperformed the other approaches on the test and validation sets. 
-*	**Random Forest** : MAE = 11.22
-*	**Linear Regression**: MAE = 18.86
-*	**Ridge Regression**: MAE = 19.67
+*	**Random Forest** : RSME = 0.465
+*	**Linear Regression**: RSME = 0.454
+*	***k-NN**: RSME = 0.572
+*	***SVM**: RSME = 0.508
 
-## Productionization 
-In this step, I built a flask API endpoint that was hosted on a local webserver by following along with the TDS tutorial in the reference section above. The API endpoint takes in a request with a list of values from a job listing and returns an estimated salary. 
 
 
