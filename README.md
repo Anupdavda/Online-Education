@@ -63,23 +63,23 @@ I tried three different models:
     * random_state = 3
 *	**k-NN** 
     * n_neighbors = 3
-          * Number of neighbors to use
+         * Number of neighbors to use
 *	**Random Forest** 
     * max_depth=3
-          * The maximum depth of a tree
+         * The maximum depth of a tree
     * max_features = 22
-          * The number of features to consider when finding the optimal split          
+         * The number of features to consider when finding the optimal split          
     * n_estimators = 100
-          * The number of trees in the forest
+         * The number of trees in the forest
     * random_state=0
       
 *	**SVM** 
     * kernel = rbf
-          * Radial Basis Function (RBF) kernel
+         * Radial Basis Function (RBF) kernel
     * gamma ='auto'
-          * Uses 1 / n_features
+         * Uses 1 / n_features
     * probability = True
-          * Enable probability estimates
+         * Enable probability estimates
 
 ## Model performance
 The Random Forest model far outperformed the other approaches on the test and train sets. 
