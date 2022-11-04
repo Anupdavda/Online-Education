@@ -60,9 +60,17 @@ I tried four different models and evaluated them using Root Mean Squared Error. 
 
 I tried three different models:
 *	**Logistic Regression**
+    * random_state = 3
 *	**k-NN** 
+    * n_neighbors = 3
 *	**Random Forest** 
+    * max_depth=3
+    * random_state=0
+    * max_features = 22
 *	**SVM** 
+    * kernel = rbf
+    * gamma ='auto'
+    * probability = True
 
 ## Model performance
 The Random Forest model far outperformed the other approaches on the test and train sets. 
@@ -70,6 +78,8 @@ The Random Forest model far outperformed the other approaches on the test and tr
 *	**Linear Regression**: RSME = 0.454
 *	**k-NN**: RSME = 0.572
 *	**SVM**: RSME = 0.508
+
+## Discussion
 
 
 
