@@ -89,10 +89,9 @@ The Random Forest model far outperformed the other approaches on the test and tr
 *	**SVM**: RSME = 0.508
 
 ## Results and Discussions
-In this project, I investigated the use of information from movie casts, directors, production companies, and genres to predict their success through the development of supervised models. Furthermore, we experimented to gain insights from unsupervised models by investigating the relationship between the combination of casts, directors, and so on and movie success.
+In this project, I investigated the use of information from movie casts, directors, production companies, and genres to predict their success through the development of supervised models. In this study, I considered students' socioeconomic conditions, students’ interaction in the class, and how the students spend time outside to predict the average performance of students. 
 
-We obtained our data from Vellore Institute of Technology. Because some of the information in the dataset was qualitative, I applied one-hot encoding to quantify the data. To deal with the high-dimensional problem, we used PCA to reduce the dimensionality and supervised methods like Random Forest, Linear Regression, K-NN and SVM to predict student's performance. I then split the data into 80% train dataset and 20% test. On the test set, our best model received a RSME score of 0.465 and accuracy score of 76.8%. 
-Our future research would concentrate on feature engineering methods. Instead of encoding all of the casts, directors, genres, and company names all at once, we could experiment with combinations of those information and also try to encode them with their own evaluations to reduce the dimensionality.
+I obtained our data from Vellore Institute of Technology. Because some of the information in the dataset was qualitative, I applied one-hot encoding to quantify the data. To deal with the high-dimensional problem, we used PCA to reduce the dimensionality and supervised methods like Random Forest, Linear Regression, K-NN and SVM to predict student's performance. I then split the data into 80% train dataset and 20% test. On the test set, our best model received a RSME score of 0.465 and accuracy score of 76.8%. My future research would concentrate on feature engineering methods. Instead of encoding all of variables at once, I could experiment with combinations of those information and also try to encode them with their own evaluations to reduce the dimensionality.
 
 
 
