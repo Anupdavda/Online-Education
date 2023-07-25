@@ -1,6 +1,6 @@
-# Online Education Enrollement Estimator: Project Overview 
+# Online Education Enrollment Estimator: Project Overview 
 
-* Created a project to predict future online education enrollement rate to based on student's feedback.
+* Created a project to predict future online education enrollment rates based on students' feedback.
 * Engineered features to convert Categorical values to Numerical Values.
 * Performed  Principal Component Analysis (PCA) to reduce the dimensionality of the features.
 * Compared Recall Score to evaluate baseline and reduced dimension model 
