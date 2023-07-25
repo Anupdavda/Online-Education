@@ -41,7 +41,7 @@ Variables of the dataset are:
 ## Data Cleaning
 I cleaned the data to make it usable for the model. Following changes were made and new variables were created:
  
-*Performance in online contained Very Bad to Very Good and the Level of satisfaction in Online Education would contain Average, Bad, and Good descriptions. I changed the value of Very Bad to 0, Average to 1, and Very Good to 2 and converted the Gender value to Binary values. The same steps were used to change categorical values to Nominal.
+* Performance in online contained Very Bad to Very Good and the Level of satisfaction in Online Education would contain Average, Bad, and Good descriptions. I changed the value of Very Bad to 0, Average to 1, and Very Good to 2 and converted the Gender value to Binary values. The same steps were used to change categorical values to Nominal.
 *	Removed Outliers from the data
 
 ## EDA
